@@ -1,0 +1,36 @@
+{
+  "name": "web-interview",
+  "version": "1.0.4",
+  "description": "打包修改",
+  "description2": "export NODE_OPTIONS=--openssl-legacy-provider",
+  "description3": "nohup npm run dev </dev/null > scriptresults.log 2> scripterror.log &",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/febobo/web-interview.git"
+  },
+  "keywords": [
+    "web",
+    "interview"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/febobo/web-interview/issues"
+  },
+  "homepage": "https://github.com/febobo/web-interview#readme",
+  "dependencies": {
+    "loader-runner": "^4.3.0",
+    "vue": "^2.7.14",
+    "vue-cli": "^2.9.6",
+    "vue-loader": "^14.2.2",
+    "vue-router": "^3.1.3",
+    "vuepress": "^1.9.8"
+  }
+}
