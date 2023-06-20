@@ -1,38 +1,7 @@
 module.exports = {
   title: "智慧树",
-  description: "web前端面试",
   base: '/question/',
-  head: [
-    ["link", { rel: "icon", href: "/onepunch.jpeg" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content:
-          "web前端面试",
-      },
-    ],
-  ],
-  theme: {
-    blog: false,
-  },
   themeConfig: {
-    repo: "febobo/web-interview",
-    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
-    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-    repoLabel: "Github",
-
-    // 以下为可选的编辑链接选项
-
-    // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: "febobo/web-interview",
-    docsDir: "docs/.vuepress/dist",
-    docsBranch: "master",
-    // 默认是 false, 设置为 true 来启用
-    editLinks: false,
-    // 默认为 "Edit this page"
-    editLinkText: "帮助我们改善此页面！",
-    // displayAllHeaders: true,
     sidebar: [
       {
         title: "ES6系列  ( 已完结 )",
@@ -359,8 +328,5 @@ module.exports = {
         ],
       },
     ],
-  },
-  markdown: {
-    lineNumbers: true,
   },
 };
