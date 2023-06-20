@@ -1,9 +1,7 @@
 {
   "name": "web-knowledge",
-  "version": "1.0.4",
-  "description": "打包修改",
-  "description2": "export NODE_OPTIONS=--openssl-legacy-provider",
-  "description3": "nohup npm run dev </dev/null > scriptresults.log 2> scripterror.log &",
+  "version": "2.0.0",
+  "description": "云端打包版本",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
