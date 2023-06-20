@@ -1,6 +1,6 @@
 module.exports = {
   title: "智慧树",
-  base: '/question/',
+  base: '/',
   themeConfig: {
     sidebar: [
       {
